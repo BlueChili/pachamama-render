@@ -57,6 +57,7 @@ body {
 }
 .pachamama {
   font-family: Jonas;
+  color: #479d4d;
 }
 h1 {
   color: #fff;
@@ -98,5 +99,5 @@ i {
   min-height: 120%;
   width: auto;
   height: auto;
-  opacity: 0.8;
+  z-index: -1;
 }
