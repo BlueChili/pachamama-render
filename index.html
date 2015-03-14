@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head><link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fundación Pachamama Colombia</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width	,initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css" type="css/stylesheet">
   </head>
   <body>
-<header class="intro"><img src="img/ground.png" class="intro__image"/>
-  <div class="intro__content">
-    <h1 class="intro__title">Fundación Pachamama Colombia</h1>
-    <nav class="intro__subtitle"><a href="en/index.html" class="lang">English</a><a href="fr/index.html" class="lang">Français</a></nav>
-  </div>
-</header></body>
+    <script>window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '368208593380569',
+    xfbml      : true,
+    version    : 'v2.2'
+  });
+};(function(d, s, id){
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) {return;}
+   js = d.createElement(s); js.id = id;
+   js.src = "//connect.facebook.net/es_LA/sdk.js";
+   fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <header>
+      <h1>Fundación Pachamama</h1>
+      <nav> <a href="#" class="lang">English</a><a href="#" class="lang">Français	</a></nav>
+      <nav class="section__wrapper"><a href="#about" class="sections">La fundación</a><a href="#news" class="sections">Noticias</a><a href="#donate" class="sections">Donaciones</a></nav>
+    </header>
+    <div class="content">
+      <div id="about">
+        <p>here comes the curve ball</p>
+      </div>
+      <div id="news">
+        <h1>noticias</h1>
+      </div>
+    </div><div class="fb-comments" data-href="http://bluechili.github.io/" data-numposts="5" data-colorscheme="light"></div>
+  </body>
 </html>
